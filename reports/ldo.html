@@ -1,0 +1,84 @@
+<!DOCTYPE html><html><head><meta charset='utf-8'><title>Tokenomics Audit — Lido DAO</title>
+<meta name="description" content="Tokenomics audit of Lido DAO: verdict Sound, red-flag score 5.6/100 — Low. Supply, unlocks, holder concentration, value accrual and red flags from public on-chain data.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="canonical" href="https://tokenomics-portfolio.pages.dev/reports/ldo.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Tokenomics Desk">
+<meta property="og:title" content="Tokenomics Audit — Lido DAO">
+<meta property="og:description" content="Tokenomics audit of Lido DAO: verdict Sound, red-flag score 5.6/100 — Low. Supply, unlocks, holder concentration, value accrual and red flags from public on-chain data.">
+<meta property="og:url" content="https://tokenomics-portfolio.pages.dev/reports/ldo.html">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Tokenomics Audit — Lido DAO">
+<meta name="twitter:description" content="Tokenomics audit of Lido DAO: verdict Sound, red-flag score 5.6/100 — Low. Supply, unlocks, holder concentration, value accrual and red flags from public on-chain data."><style>
+@page { size: A4; margin: 18mm 16mm; }
+body { font-family: 'DejaVu Sans', Arial, sans-serif; color: #111827;
+       font-size: 11pt; line-height: 1.45; }
+h1 { font-size: 22pt; margin: 0 0 2mm 0; }
+h2 { font-size: 13.5pt; border-bottom: 2px solid #111827; padding-bottom: 1mm;
+     margin: 7mm 0 2.5mm 0; }
+h3 { font-size: 11.5pt; margin: 4mm 0 1mm 0; }
+.sub { color: #4b5563; font-size: 10pt; }
+.cover { border: 2.5px solid #111827; padding: 6mm; margin-bottom: 6mm; }
+.verdict { font-size: 15pt; font-weight: bold; }
+.score { font-size: 15pt; font-weight: bold; }
+table { border-collapse: collapse; width: 100%; margin: 2mm 0 4mm 0; }
+th, td { border: 1px solid #d1d5db; padding: 1.6mm 2.4mm; text-align: left;
+         font-size: 10pt; }
+th { background: #f3f4f6; width: 38%; }
+.chip { color: #fff; border-radius: 2mm; padding: 0.4mm 2.4mm;
+        font-size: 8.5pt; font-weight: bold; white-space: nowrap; }
+.disc { background: #fef3c7; border: 1px solid #f59e0b; padding: 3mm 4mm;
+        font-size: 9.5pt; margin: 4mm 0; }
+.small { font-size: 9pt; color: #374151; }
+.ev { color: #4b5563; font-size: 9.5pt; font-style: italic; }
+ul { margin: 1mm 0 3mm 5mm; padding: 0; }
+</style></head><body>
+<div class='cover'>
+<h1>Tokenomics Audit — Lido DAO (LDO)</h1>
+<div class='sub'>Tokenomics Desk · 2026-10-14T04:20:56Z · Chain: ethereum · Contract: 0x5a98fcbea516cf06857215779fd812ca3bef1b32</div>
+<p class='verdict'>Verdict: Sound</p>
+<p class='score'>Red-flag score: 5.6/100 — Low</p>
+<div class='disc'><b>Disclaimer (short form).</b> Economic triage based on public on-chain and aggregator data. Not a smart-contract security audit. Not financial advice. No price predictions. See the closing section for full disclaimers.</div>
+</div>
+<h2>1. Executive summary</h2>
+<p><b>Verdict: Sound.</b> The three findings that matter most:</p><ul>
+<li><b>LOW — Vesting &amp; unlock calendar:</b> Unlock schedule is UNKNOWN — the protocol is not tracked by DefiLlama emissions and no schedule was machine-readable. Missing evidence: a published unlock/vesting schedule from the project&#x27;s docs.</li>
+<li><b>INFO — Market context:</b> Token trades 94% below its all-time high — context only, not a mechanics grade.</li>
+</ul>
+<h2>2. Token snapshot</h2><table>
+<tr><th>Total supply (global)</th><td>1,000,000,000</td></tr>
+<tr><th>Supply on ethereum (on-chain)</th><td>UNKNOWN</td></tr>
+<tr><th>Circulating supply</th><td>829,567,764</td></tr>
+<tr><th>Max supply</th><td>1,000,000,000</td></tr>
+<tr><th>Circulating ratio</th><td>83.0%</td></tr>
+<tr><th>Price</th><td>$0</td></tr>
+<tr><th>Market cap</th><td>$355,154,409</td></tr>
+<tr><th>FDV</th><td>$428,119,829</td></tr>
+<tr><th>Holder count (this chain)</th><td>67,407</td></tr>
+<tr><th>Top 1 holder share</th><td>0.0%</td></tr>
+<tr><th>Top 10 holder share</th><td>0.0%</td></tr>
+<tr><th>DEX liquidity (all pairs)</th><td>$1,450,096</td></tr>
+<tr><th>DEX volume 24h</th><td>$474,043</td></tr>
+<tr><th>DEX pairs</th><td>30</td></tr>
+<tr><th>Contract owner</th><td>UNKNOWN</td></tr>
+</table>
+<p class='small'>Sources: CoinGecko (market/supply), chain RPC (on-chain reads), Blockscout (holders, EVM), DEXScreener (liquidity/volume), DefiLlama (fees; emissions when tracked). Accessed 2026-10-14T04:20:56Z.</p>
+<h2>3. Findings — ranked by severity</h2>
+<h3>1. <span class='chip' style='background:#2563eb'>LOW</span> Vesting &amp; unlock calendar</h3>
+<p>Unlock schedule is UNKNOWN — the protocol is not tracked by DefiLlama emissions and no schedule was machine-readable. Missing evidence: a published unlock/vesting schedule from the project&#x27;s docs.</p>
+<p class='ev'>Evidence: DefiLlama emissions endpoint is paywalled (HTTP 402 at last check) or the protocol is untracked there</p>
+<h3>2. <span class='chip' style='background:#6b7280'>INFO</span> Market context</h3>
+<p>Token trades 94% below its all-time high — context only, not a mechanics grade.</p>
+<p class='ev'>Evidence: ATH change -94.1% (CoinGecko)</p>
+<h2>4. Analysis</h2>
+<h3>Holder concentration — PASS</h3><p>Top 10 wallets hold 0.0% of supply on this chain (raw on-chain; includes contracts, bridges, vesting vaults — wallet labels are a manual-review step).</p>
+<h3>Insider concentration</h3><p>UNKNOWN — insider allocation % requires the project&#x27;s published allocation docs (manual checkpoint).</p>
+<h3>Unlock risk</h3><p>83% of supply circulates; 17% is locked or unissued — future unlock pressure exists even where the calendar is unpublished.</p>
+<h3>Value accrual</h3><p>The protocol charges real fees (DefiLlama). Whether any of that value reaches token holders — buyback, burn, revenue share — is UNKNOWN without the project&#x27;s docs (manual checkpoint).</p>
+<p>Annualized protocol fees (24h × 365): <b>$601,728,780</b> · fees/FDV = 140.55%</p>
+<h3>Peer comparison</h3>
+<p>UNKNOWN — no curated peer set for this token yet.</p>
+<h2>5. Methodology, limitations & disclaimers</h2>
+<p class='small'>Public sources only: the aggregators and chain data named above, accessed on the date shown. No internal cap tables, no private agreements, no team-wallet labels beyond what sources publish. Checkpoints requiring project documentation (initial allocation, holder capture of fees, demand drivers) are graded in the manual review layer; the engine grades only what it measured and marks the rest UNKNOWN rather than guessing. Figures are a snapshot; tokenomics change — re-check before acting.</p>
+<p class='small'>1) <b>Not a security audit</b> — no contract code, custody, or operational security was reviewed. 2) <b>Not financial advice</b> — no recommendation to buy, sell, or hold any token. 3) <b>No price predictions</b> — supply mechanics only; valuation figures are arithmetic, not forecasts. 4) <b>Public sources</b> — errors in source material propagate; verify independently. 5) <b>No outcome guarantees</b> — a Sound grade does not imply performance; a Fragile grade does not imply failure. 6) <b>Independence</b> — prepared without engagement from the project team beyond the review fee, which does not influence grades.</p>
+</body></html>

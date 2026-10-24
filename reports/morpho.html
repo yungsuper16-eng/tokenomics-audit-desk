@@ -1,0 +1,94 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Tokenomics Audit — Morpho</title>
+<meta name="description" content="Tokenomics audit of Morpho: verdict Fragile, red-flag score 74.5/100 — High. Supply, unlocks, holder concentration, value accrual and red flags from public on-chain data.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="canonical" href="https://tokenomics-portfolio.pages.dev/reports/morpho.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Tokenomics Desk">
+<meta property="og:title" content="Tokenomics Audit — Morpho">
+<meta property="og:description" content="Tokenomics audit of Morpho: verdict Fragile, red-flag score 74.5/100 — High. Supply, unlocks, holder concentration, value accrual and red flags from public on-chain data.">
+<meta property="og:url" content="https://tokenomics-portfolio.pages.dev/reports/morpho.html">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Tokenomics Audit — Morpho">
+<meta name="twitter:description" content="Tokenomics audit of Morpho: verdict Fragile, red-flag score 74.5/100 — High. Supply, unlocks, holder concentration, value accrual and red flags from public on-chain data."><style>
+@page { size: A4; margin: 18mm 16mm; }
+body { font-family: 'DejaVu Sans', Arial, sans-serif; color: #111827;
+       font-size: 11pt; line-height: 1.45; max-width: 900px; margin: 2em auto; padding: 0 1em; }
+h1 { font-size: 22pt; margin: 0 0 2mm 0; }
+h2 { font-size: 13.5pt; border-bottom: 2px solid #111827; padding-bottom: 1mm;
+     margin: 7mm 0 2.5mm 0; }
+h3 { font-size: 11.5pt; margin: 4mm 0 1mm 0; }
+.sub { color: #4b5563; font-size: 10pt; }
+.cover { border: 2.5px solid #111827; padding: 6mm; margin-bottom: 6mm; }
+.verdict { font-size: 15pt; font-weight: bold; }
+.score { font-size: 15pt; font-weight: bold; }
+table { border-collapse: collapse; width: 100%; margin: 2mm 0 4mm 0; }
+th, td { border: 1px solid #d1d5db; padding: 1.6mm 2.4mm; text-align: left;
+         font-size: 10pt; }
+th { background: #f3f4f6; width: 38%; }
+.chip { color: #fff; border-radius: 2mm; padding: 0.4mm 2.4mm;
+        font-size: 8.5pt; font-weight: bold; white-space: nowrap; }
+.disc { background: #fef3c7; border: 1px solid #f59e0b; padding: 3mm 4mm;
+        font-size: 9.5pt; margin: 4mm 0; }
+.small { font-size: 9pt; color: #374151; }
+.ev { color: #4b5563; font-size: 9.5pt; font-style: italic; }
+ul { margin: 1mm 0 3mm 5mm; padding: 0; }</style></head><body>
+<div class='cover'>
+<h1>Tokenomics Audit — Morpho (MORPHO)</h1>
+<div class='sub'>Tokenomics Desk · 2026-10-13T19:21:32Z · Chain: base · Contract: 0xbaa5cc21fd487b8fcc2f632f3f4e8d37262a0842</div>
+<p class='verdict'>Verdict: Fragile</p>
+<p class='score'>Red-flag score: 74.5/100 — High</p>
+<div class='disc'><b>Disclaimer (short form).</b> Economic triage based on public on-chain and aggregator data. Not a smart-contract security audit. Not financial advice. No price predictions. See the closing section for full disclaimers.</div></div>
+<h2>1. Executive summary</h2>
+<p><b>Verdict: Fragile.</b> The three findings that matter most:</p><ul>
+<li><b>CRITICAL — Concentration &amp; governance risk:</b> Top holder control 49.6% of total supply — a single wallet can move the market unilaterally. (Raw on-chain figure; the wallet may be a contract, exchange, or vesting vault — labels are UNKNOWN to the engine.)</li>
+<li><b>HIGH — Concentration &amp; governance risk:</b> Top 10 holders control 81.1% of total supply.</li>
+<li><b>MEDIUM — Supply schedule &amp; issuance:</b> Contract has a live owner address — privileged functions may exist; the engine does not audit code, so the owner's powers are UNKNOWN beyond the owner() read.</li>
+</ul>
+<h2>2. Token snapshot</h2><table>
+<tr><th>Total supply (global)</th><td>1,000,000,000</td></tr>
+<tr><th>Supply on base (on-chain)</th><td>26,233,855</td></tr>
+<tr><th>Circulating supply</th><td>700,535,346</td></tr>
+<tr><th>Max supply</th><td>1,000,000,000</td></tr>
+<tr><th>Circulating ratio</th><td>70.0%</td></tr>
+<tr><th>Price</th><td>$2</td></tr>
+<tr><th>Market cap</th><td>$1,665,643,926</td></tr>
+<tr><th>FDV</th><td>$2,377,672,925</td></tr>
+<tr><th>Holder count (this chain)</th><td>167,821</td></tr>
+<tr><th>Top 1 holder share</th><td>49.6%</td></tr>
+<tr><th>Top 10 holder share</th><td>81.1%</td></tr>
+<tr><th>DEX liquidity (all pairs)</th><td>$2,990,417</td></tr>
+<tr><th>DEX volume 24h</th><td>$2,514,181</td></tr>
+<tr><th>DEX pairs</th><td>25</td></tr>
+<tr><th>Contract owner</th><td>0xcba28b38103307ec8da98377fff9816c164f9afa</td></tr>
+</table>
+<p class='small'>Sources: CoinGecko (market/supply), chain RPC (on-chain reads), Blockscout (holders, EVM), DEXScreener (liquidity/volume), DefiLlama (fees; emissions when tracked). Accessed 2026-10-13T19:21:32Z.</p>
+<h2>3. Findings — ranked by severity</h2>
+<h3>1. <span class='chip' style='background:#b91c1c'>CRITICAL</span> Concentration &amp; governance risk</h3>
+<p>Top holder control 49.6% of total supply — a single wallet can move the market unilaterally. (Raw on-chain figure; the wallet may be a contract, exchange, or vesting vault — labels are UNKNOWN to the engine.)</p>
+<p class='ev'>Evidence: top1 share = 49.55% of total supply</p>
+<h3>2. <span class='chip' style='background:#ea580c'>HIGH</span> Concentration &amp; governance risk</h3>
+<p>Top 10 holders control 81.1% of total supply.</p>
+<p class='ev'>Evidence: top10 share = 81.14% of total supply</p>
+<h3>3. <span class='chip' style='background:#ca8a04'>MEDIUM</span> Supply schedule &amp; issuance</h3>
+<p>Contract has a live owner address — privileged functions may exist; the engine does not audit code, so the owner's powers are UNKNOWN beyond the owner() read.</p>
+<p class='ev'>Evidence: owner() = 0xcba28b38103307ec8da98377fff9816c164f9afa</p>
+<h3>4. <span class='chip' style='background:#2563eb'>LOW</span> Vesting &amp; unlock calendar</h3>
+<p>Unlock schedule is UNKNOWN — the protocol is not tracked by DefiLlama emissions and no schedule was machine-readable. Missing evidence: a published unlock/vesting schedule from the project's docs.</p>
+<p class='ev'>Evidence: DefiLlama emissions endpoint is paywalled (HTTP 402 at last check) or the protocol is untracked there</p>
+<h2>4. Analysis</h2>
+<h3>Holder concentration — FAIL</h3><p>Top 10 wallets hold 81.1% of supply on this chain (raw on-chain; includes contracts, bridges, vesting vaults — wallet labels are a manual-review step).</p>
+<h3>Insider concentration</h3><p>UNKNOWN — insider allocation % requires the project's published allocation docs (manual checkpoint).</p>
+<ul><li>Live contract owner — privileged control exists; its powers need a code read (out of engine scope).</li></ul>
+<h3>Unlock risk</h3><p>70% of supply circulates; 30% is locked or unissued — future unlock pressure exists even where the calendar is unpublished.</p>
+<h3>Value accrual</h3><p>The protocol charges real fees (DefiLlama). Whether any of that value reaches token holders — buyback, burn, revenue share — is UNKNOWN without the project's docs (manual checkpoint).</p>
+<p>Annualized protocol fees (24h × 365): <b>$279,093,965</b> · fees/FDV = 11.74%</p>
+<h3>Peer comparison</h3>
+<table><tr><th>Peer</th><td><b>FDV</b></td><td><b>Circulating</b></td><td><b>ATH change</b></td></tr>
+<tr><th>Aave (AAVE)</th><td>$2,584,652,587</td><td>96.5%</td><td>-75.6%</td></tr>
+<tr><th>Compound (COMP)</th><td>$230,685,664</td><td>100.0%</td><td>-97.3%</td></tr>
+</table>
+<p>Subject FDV $2,377,672,925 vs peers $230,685,664–$2,584,652,587.</p>
+<h2>5. Methodology, limitations & disclaimers</h2>
+<p class='small'>Public sources only: the aggregators and chain data named above, accessed on the date shown. No internal cap tables, no private agreements, no team-wallet labels beyond what sources publish. Checkpoints requiring project documentation (initial allocation, holder capture of fees, demand drivers) are graded in the manual review layer; the engine grades only what it measured and marks the rest UNKNOWN rather than guessing. Figures are a snapshot; tokenomics change — re-check before acting.</p>
+<p class='small'>1) <b>Not a security audit</b> — no contract code, custody, or operational security was reviewed. 2) <b>Not financial advice</b> — no recommendation to buy, sell, or hold any token. 3) <b>No price predictions</b> — supply mechanics only; valuation figures are arithmetic, not forecasts. 4) <b>Public sources</b> — errors in source material propagate; verify independently. 5) <b>No outcome guarantees</b> — a Sound grade does not imply performance; a Fragile grade does not imply failure. 6) <b>Independence</b> — prepared without engagement from the project team beyond the review fee, which does not influence grades.</p>
+</body></html>
