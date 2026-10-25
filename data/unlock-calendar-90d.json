@@ -5,6 +5,17 @@
   "coverage_end": "2027-01-23",
   "entries": [
     {
+      "token": "EIGEN",
+      "project": "EigenCloud",
+      "date": "2026-11-01",
+      "amount_tokens": 36820000,
+      "pct_of_supply": 4.93,
+      "pct_basis": "circulating supply",
+      "type": "cliff",
+      "status": "contested — pending primary-source re-verification",
+      "source_note": "Monthly investor and early-contributor tranche. Figure carried here is Tokenomist's: 36,820,000 EIGEN (Investors 19,750,000 + Early Contributors 17,070,000), reported as 4.93% of circulating supply in Token Unlocks data carried by PANews/Binance (Oct 25, 2026); about $7.3M at Oct 25 prices. CONTESTED on size: DefiLlama's emissions model puts the same Nov 1 tranche at 37,825,418 EIGEN, and DefiLlama's unlocks list dates a ~$7.31M EIGEN unlock Oct 31, 2026 (UTC boundary). The desk resolves the size from the Eigen Foundation's own vesting disclosures before any edition relies on it. Weekly programmatic emissions (about 1.29M EIGEN/week) are a separate flow, not this event."
+    },
+    {
       "token": "ENA",
       "project": "Ethena",
       "date": "2026-11-01",
@@ -16,6 +27,17 @@
       "source_note": "Desk calendar figure carried by two dated news reports (Oct 22–25, 2026) and the desk's own engine work. Public trackers disagree: Tokenomist lists the next ENA unlock on Nov 2, 2026, and DefiLlama's unlocks page shows no upcoming ENA unlock scheduled. The desk resolves the date and size from Ethena's own vesting and unlock disclosures on the morning of 2026-11-01, before Unlock Watch Edition 001 publishes. Recipient breakdown unconfirmed until a primary source states it; release type not stated here because the post-October-2026 schedule shape is itself unconfirmed."
     },
     {
+      "token": "SUI",
+      "project": "Sui",
+      "date": "2026-11-01",
+      "amount_tokens": 13150000,
+      "pct_of_supply": 0.32,
+      "pct_basis": "circulating supply",
+      "type": null,
+      "status": "contested — pending primary-source re-verification",
+      "source_note": "Early-November monthly release window (Oct 31 – Nov 1). Figure carried here is the aggregated multi-tranche total reported from Token Unlocks data (PANews/Binance, Oct 25, 2026): about 13,150,000 SUI on Nov 1, 2026, 0.32% of circulating supply. CONTESTED: trackers count different recipient tranches — DefiLlama's Sui Foundation page lists a single tranche of 2,070,000 SUI to Mysten Labs Treasury on Oct 31, 2026 (0.05% of circulating supply), while Tokenomist dates the next release Nov 1, 2026 to the Community Reserve. The desk resolves tranche composition from the Sui Foundation's published token schedule before any edition relies on it. Release type left unstated: the trackers characterize this instalment differently."
+    },
+    {
       "token": "JTO",
       "project": "Jito",
       "date": "2026-11-07",
@@ -25,6 +47,28 @@
       "type": "final",
       "status": "scheduled",
       "source_note": "Final tranche of Jito's original multi-year vesting schedule. Figures from the desk's published audit of Jito (Oct 24, 2026): total supply 1,000,000,000 JTO; 986,522,404 on-chain; circulating 535,820,549 (53.6%); mint and freeze authority both revoked. Figures re-verified the morning Unlock Watch Edition 002 publishes (Nov 7, 2026)."
+    },
+    {
+      "token": "APT",
+      "project": "Aptos",
+      "date": "2026-11-11",
+      "amount_tokens": 4540000,
+      "pct_of_supply": 0.51,
+      "pct_basis": "circulating supply",
+      "type": "linear",
+      "status": "scheduled",
+      "source_note": "First monthly release under Aptos' reduced schedule: core contributor and investor vesting ended Oct 12, 2026, cutting the monthly release from about 11,310,000 to 4,540,000 APT. Date, amount, and the 0.51% of circulating supply agree across DefiLlama's Aptos unlocks page and Tokenomist (both read Oct 25, 2026); recipient split of Community 3,210,000 + Foundation 1,330,000 per CoinGecko's Aptos tokenomics page. Linear monthly instalment; the reduced rate continues on the same cadence."
+    },
+    {
+      "token": "ARB",
+      "project": "Arbitrum",
+      "date": "2026-11-16",
+      "amount_tokens": 92645834,
+      "pct_of_supply": 1.34,
+      "pct_basis": "circulating supply",
+      "type": "cliff",
+      "status": "contested — pending primary-source re-verification",
+      "source_note": "Monthly cliff instalment to Team, Future Team + Advisors and Investors. The amount agrees exactly across both trackers: 92,645,834 ARB (Tokenomist; DefiLlama states 92.65M), at 1.34% of circulating supply (DefiLlama). CONTESTED on date by one day: Tokenomist and the 16th-of-month cadence (the prior instalment fell Oct 16, 2026) give Nov 16, 2026; DefiLlama's Arbitrum unlocks page states Nov 15, 2026. The desk resolves the date from the Arbitrum Foundation's vesting disclosures before any edition relies on it. Same-size instalments continue monthly until March 2027."
     },
     {
       "token": "ZRO",
