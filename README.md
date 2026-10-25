@@ -30,9 +30,13 @@ audits, not financial advice, no price predictions.
 
 Live portfolio: https://tokenomics-portfolio.pages.dev
 
-## Get yours
+## Ordering
 
 Full tokenomics audit — supply, unlocks, holders, value accrual,
-comparative analysis, red flags. PDF report in 48 hours. **$500.**
+comparative analysis, red flags. PDF report in 48 hours. **$500, paid in USDC on Base.**
 
-Contact: btupm4@aimailbox.dev
+**Ordering is closed.** The desk is not taking audit orders until
+its ordering mailbox is live — an audit is only offered when the
+desk can answer, deliver, and stand behind the reply in its own
+name. The terms above are the standing terms for when ordering
+reopens. Until then, the audits above are the work, in full.
