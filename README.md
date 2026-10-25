@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/logo.svg" alt="Tokenomics Audit Desk" width="120"></p>
+
 # Tokenomics Audits & Token Unlock Calendar
 
 **Tokenomics Audit Desk** — tokenomics audits graded from public on-chain
