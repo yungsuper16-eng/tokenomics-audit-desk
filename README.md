@@ -49,7 +49,7 @@ license (see [LICENSE](LICENSE) and [data/README.md](data/README.md)):
 - [unlock-calendar-90d.json](data/unlock-calendar-90d.json)
 
 **Coverage:** 2026-10-25 through 2027-01-23 (90 days). The calendar
-currently carries **7 dated events**. It is deliberately small: an entry
+currently carries **8 dated events**. It is deliberately small: an entry
 appears only when the desk holds verified figures for it, never scraped
 in bulk and never padded. The calendar is refreshed with each Unlock
 Watch edition, and every figure is re-verified the morning its edition
@@ -66,10 +66,15 @@ the entry is flagged `contested — pending primary-source
 re-verification` and the disagreement is named in its `source_note`. A
 contested entry is never presented as settled: the desk resolves it from
 the project's own disclosures before the edition publishes, or the
-edition holds. Four entries are currently flagged this way — Ethena
-(ENA), EigenCloud (EIGEN), and Sui (SUI) on size or tranche
-composition, and Arbitrum (ARB) on a one-day date difference between
-trackers.
+edition holds. Three entries are currently flagged this way —
+EigenCloud (EIGEN) and Sui (SUI) on size or tranche composition, and
+Arbitrum (ARB) on a one-day date difference between trackers. The
+Ethena (ENA) entries were re-issued on 2026-10-25 from the Ethena
+Foundation's own disclosures: the November figure previously carried
+did not survive primary-source verification and was withdrawn, and the
+two scheduled monthly tranches that replaced it are labelled with
+their sourcing in their `source_note`s — one derived from Ethena's
+published vesting terms, one secondary-corroborated.
 
 The calendar is the data behind
 [Unlock Watch](https://tokenomics-portfolio.pages.dev/unlock-watch.html),

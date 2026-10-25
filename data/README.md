@@ -13,7 +13,7 @@ data. This is the dataset behind
 ## Coverage
 
 - **Window:** 2026-10-25 through 2027-01-23 (90 days) at this revision
-- **Events:** 7 dated events at this revision
+- **Events:** 8 dated events at this revision
 - **Inclusion rule:** an entry appears only when the desk holds verified
   figures for it — token, date, amount, the share of supply with its
   basis, and a named source. Anything that cannot be verified to that
