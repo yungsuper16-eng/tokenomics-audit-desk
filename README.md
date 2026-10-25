@@ -76,10 +76,3 @@ Full tokenomics audit — supply, unlocks, holders, value accrual,
 comparative analysis, red flags. PDF report in 48 hours. **$500, paid in USDC on Base.**
 
 Contact: audiauditdesk@gmail.com
-
-## The Desk
-
-- **Portfolio:** https://tokenomics-portfolio.pages.dev
-- **Unlock Watch:** https://tokenomics-portfolio.pages.dev/unlock-watch.html
-- **Substack** (Unlock Watch editions + audits commentary, subscribe free): https://tokenomicsauditdesk.substack.com/
-- **Commission an audit** ($500, PDF in 48 hours): audiauditdesk@gmail.com
