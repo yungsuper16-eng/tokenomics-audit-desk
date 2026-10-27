@@ -1,0 +1,36 @@
+# Tokenomics Audit Desk — GitHub showcase
+
+> Tokenomics Audit Desk: tokenomics audits graded from public on-chain data, and the dated token unlock calendar the desk watches, published as open data. The same engine, the same rubric, whether the verdict comes back Sound or Fragile. Audits are economic triage from public data — not smart-contract security audits, not financial advice, no price predictions.
+
+Canonical site: https://tokenomics-portfolio.pages.dev/
+Repository: https://github.com/yungsuper16-eng/tokenomics-audit-desk
+Last updated: 2026-10-27
+
+## Sample audits — graded, published in full
+
+Nine audits, free to read, every figure sourced. Scores are red-flag scores out of 100 — higher means more red flags. The reading copies below are the canonical portfolio pages; the report sources live in this repo under reports/.
+
+- [Aave (AAVE), Ethereum](https://tokenomics-portfolio.pages.dev/reports/aave): 3.5/100 — Low — Sound
+- [Lido DAO (LDO), Ethereum](https://tokenomics-portfolio.pages.dev/reports/ldo): 5.6/100 — Low — Sound
+- [Uniswap (UNI), Ethereum](https://tokenomics-portfolio.pages.dev/reports/uni): 7.4/100 — Low — Sound
+- [Jupiter (JUP), Solana](https://tokenomics-portfolio.pages.dev/reports/jup): 13.7/100 — Low — Sound
+- [Raydium (RAY), Solana](https://tokenomics-portfolio.pages.dev/reports/ray): 13.7/100 — Low — Sound
+- [Jito (JTO), Solana](https://tokenomics-portfolio.pages.dev/reports/jto): 31/100 — Guarded — Needs work
+- [LayerZero (ZRO), Ethereum](https://tokenomics-portfolio.pages.dev/reports/zro): 44.5/100 — Elevated — Needs work
+- [Aerodrome Finance (AERO), Base](https://tokenomics-portfolio.pages.dev/reports/aero): 72.5/100 — High — Fragile
+- [Morpho (MORPHO), Base](https://tokenomics-portfolio.pages.dev/reports/morpho): 74.5/100 — High — Fragile
+
+## Open data — the 90-day unlock calendar
+
+The desk's dated unlock watch list, published as open data under the MIT license: 8 dated events, coverage 2026-10-25 through 2027-01-23. An entry appears only when the desk holds verified figures for it. The same dataset is mirrored on Hugging Face and Kaggle.
+
+- [unlock-calendar-90d.csv](https://github.com/yungsuper16-eng/tokenomics-audit-desk/blob/main/data/unlock-calendar-90d.csv): The unlock calendar as CSV.
+- [unlock-calendar-90d.json](https://github.com/yungsuper16-eng/tokenomics-audit-desk/blob/main/data/unlock-calendar-90d.json): The unlock calendar as JSON.
+- [Dataset documentation](https://github.com/yungsuper16-eng/tokenomics-audit-desk/blob/main/data/README.md): Fields, sourcing rules, and how contested figures are flagged.
+- [Unlock calendar on Hugging Face](https://huggingface.co/datasets/tokenomicsauditdesk/token-unlock-calendar): The same dataset on Hugging Face Datasets.
+- [Unlock calendar MCP server](https://tokenomics-unlock-mcp.gtcclothing1.workers.dev/): Free remote MCP server serving the calendar as read-only tools; listed in the official MCP Registry as io.github.yungsuper16-eng/tokenomics-unlock-calendar.
+
+## The offer
+
+- [Order a full tokenomics audit](https://tokenomics-portfolio.pages.dev/#order): Supply, unlocks, holders, value accrual, comparative analysis, red flags. PDF report in 48 hours. $500, paid in USDC on Base. Contact: audiauditdesk@gmail.com
+- [Unlock Watch](https://tokenomics-portfolio.pages.dev/unlock-watch): Dated briefs on major token unlocks, also on Substack at https://tokenomicsauditdesk.substack.com/ (free subscriptions).
