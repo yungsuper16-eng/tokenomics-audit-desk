@@ -22,7 +22,7 @@ Nine audits, free to read, every figure sourced. Scores are red-flag scores out 
 
 ## Open data — the 90-day unlock calendar
 
-The desk's dated unlock watch list, published as open data under the MIT license: 8 dated events, coverage 2026-10-25 through 2027-01-23. An entry appears only when the desk holds verified figures for it. The same dataset is mirrored on Hugging Face and Kaggle.
+The desk's dated unlock watch list, published as open data under the MIT license: 13 dated events, coverage 2026-10-25 through 2027-01-23. An entry appears only when the desk holds verified figures for it. The same dataset is mirrored on Hugging Face and Kaggle.
 
 - [unlock-calendar-90d.csv](https://github.com/yungsuper16-eng/tokenomics-audit-desk/blob/main/data/unlock-calendar-90d.csv): The unlock calendar as CSV.
 - [unlock-calendar-90d.json](https://github.com/yungsuper16-eng/tokenomics-audit-desk/blob/main/data/unlock-calendar-90d.json): The unlock calendar as JSON.

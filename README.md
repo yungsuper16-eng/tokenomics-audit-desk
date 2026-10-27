@@ -51,7 +51,7 @@ license (see [LICENSE](LICENSE) and [data/README.md](data/README.md)):
 - [unlock-calendar-90d.json](data/unlock-calendar-90d.json)
 
 **Coverage:** 2026-10-25 through 2027-01-23 (90 days). The calendar
-currently carries **8 dated events**. It is deliberately small: an entry
+currently carries **13 dated events**. It is deliberately small: an entry
 appears only when the desk holds verified figures for it, never scraped
 in bulk and never padded. The calendar is refreshed with each Unlock
 Watch edition, and every figure is re-verified the morning its edition
@@ -68,9 +68,11 @@ the entry is flagged `contested — pending primary-source
 re-verification` and the disagreement is named in its `source_note`. A
 contested entry is never presented as settled: the desk resolves it from
 the project's own disclosures before the edition publishes, or the
-edition holds. Three entries are currently flagged this way —
-EigenCloud (EIGEN) and Sui (SUI) on size or tranche composition, and
-Arbitrum (ARB) on a one-day date difference between trackers. The
+edition holds. Six entries are currently flagged this way —
+EigenCloud (EIGEN, both monthly instalments) and Sui (SUI) on size or
+tranche composition, Arbitrum (ARB, both monthly instalments) on a
+one-day date difference between trackers, and Ondo (ONDO) on tranche
+size. The
 Ethena (ENA) entries were re-issued on 2026-10-25 from the Ethena
 Foundation's own disclosures: the November figure previously carried
 did not survive primary-source verification and was withdrawn, and the
