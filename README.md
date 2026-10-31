@@ -90,7 +90,7 @@ which also publishes on Substack —
 
 The free dataset in this repo stays free: 13 dated unlock events across 9 tokens, also published on Hugging Face and Kaggle and served by the desk's MCP server, listed on the Official MCP Registry.
 
-The Unlock Data Pack is the paid tier for readers who need broader coverage than that public sample. It carries **37 dated events across 16 tokens** on a rolling 6-month forward window (Nov 1, 2026 – Apr 30, 2027), refreshed weekly, delivered by email as CSV + JSON plus a readable unlock/score sheet, with a personal subscriber key. Same sourcing standard as the free dataset: every event dated and sourced, contested figures flagged. An unlock is a supply fact, not a forecast — this is not financial advice and makes no price predictions.
+The Unlock Data Pack is the paid tier for readers who need broader coverage than that public sample. It carries **46 dated events across 20 tokens** on a rolling 6-month forward window (Nov 1, 2026 – Apr 30, 2027), refreshed weekly, delivered by email as CSV + JSON plus a readable unlock/score sheet, with a personal subscriber key. Same sourcing standard as the free dataset: every event dated and sourced, contested figures flagged. An unlock is a supply fact, not a forecast — this is not financial advice and makes no price predictions.
 
 **Two ways to buy:**
 
