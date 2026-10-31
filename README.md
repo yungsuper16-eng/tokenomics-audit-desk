@@ -86,6 +86,23 @@ which also publishes on Substack —
 [tokenomicsauditdesk.substack.com](https://tokenomicsauditdesk.substack.com/)
 (free subscriptions).
 
+## Unlock Data Pack — expanded coverage, refreshed weekly
+
+The free dataset in this repo stays free: 13 dated unlock events across 9 tokens, also published on Hugging Face and Kaggle and served by the desk's MCP server, listed on the Official MCP Registry.
+
+The Unlock Data Pack is the paid tier for readers who need broader coverage than that public sample. It carries **37 dated events across 16 tokens** on a rolling 6-month forward window (Nov 1, 2026 – Apr 30, 2027), refreshed weekly, delivered by email as CSV + JSON plus a readable unlock/score sheet, with a personal subscriber key. Same sourcing standard as the free dataset: every event dated and sourced, contested figures flagged. An unlock is a supply fact, not a forecast — this is not financial advice and makes no price predictions.
+
+**Two ways to buy:**
+
+- **$15/month subscription** — [Subscribe to the Unlock Data Pack](https://buy.stripe.com/eVqcN4fHo8o6fYVgrXg362U)
+- **$49 one-time for the full dataset** — [Buy the Unlock Data Pack](https://buy.stripe.com/dRm3cufHo0VE1413Fbg362V)
+
+Card checkout is processed by Golden Touch Clothing Inc, the registered company behind Tokenomics Audit Desk — that name appears on the checkout and your receipt.
+
+Questions: audiauditdesk@gmail.com
+
+Existing offers are unchanged: $199 Unlock Risk Report and $500 Full Tokenomics Audit via the desk's portfolio site.
+
 ## Get yours
 
 Full tokenomics audit — supply, unlocks, holders, value accrual,
