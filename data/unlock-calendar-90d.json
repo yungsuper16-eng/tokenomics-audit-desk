@@ -13,7 +13,7 @@
       "pct_basis": "circulating supply",
       "type": "cliff",
       "status": "contested — pending primary-source re-verification",
-      "source_note": "Monthly investor and early-contributor tranche. Figure carried here is Tokenomist's: 36,820,000 EIGEN (Investors 19,750,000 + Early Contributors 17,070,000), reported as 4.93% of circulating supply in Token Unlocks data carried by PANews/Binance (Oct 25, 2026); about $7.3M at Oct 25 prices. CONTESTED on size: DefiLlama's emissions model puts the same Nov 1 tranche at 37,825,418 EIGEN, and DefiLlama's unlocks list dates a ~$7.31M EIGEN unlock Oct 31, 2026 (UTC boundary). The desk resolves the size from the Eigen Foundation's own vesting disclosures before any edition relies on it. Weekly programmatic emissions (about 1.29M EIGEN/week) are a separate flow, not this event."
+      "source_note": "Monthly investor and early-contributor tranche: 36,820,000 EIGEN (Investors 19,750,000 + Early Contributors 17,070,000), 4.93% of circulating supply; about $7.3M at Oct 25, 2026 prices. CONTESTED on size: a second published figure puts the same Nov 1 tranche at 37,825,418 EIGEN, and a published unlock list dates a ~$7.31M EIGEN unlock Oct 31, 2026 (UTC boundary). The size is verified against the Eigen Foundation's own vesting disclosures before any edition relies on it. Weekly programmatic emissions (about 1.29M EIGEN/week) are a separate flow, not this event."
     },
     {
       "token": "SUI",
@@ -24,7 +24,7 @@
       "pct_basis": "circulating supply",
       "type": null,
       "status": "contested — pending primary-source re-verification",
-      "source_note": "Early-November monthly release window (Oct 31 – Nov 1). Figure carried here is the aggregated multi-tranche total reported from Token Unlocks data (PANews/Binance, Oct 25, 2026): about 13,150,000 SUI on Nov 1, 2026, 0.32% of circulating supply. CONTESTED: trackers count different recipient tranches — DefiLlama's Sui Foundation page lists a single tranche of 2,070,000 SUI to Mysten Labs Treasury on Oct 31, 2026 (0.05% of circulating supply), while Tokenomist dates the next release Nov 1, 2026 to the Community Reserve. The desk resolves tranche composition from the Sui Foundation's published token schedule before any edition relies on it. Release type left unstated: the trackers characterize this instalment differently."
+      "source_note": "Early-November monthly release window (Oct 31 – Nov 1): about 13,150,000 SUI on Nov 1, 2026, 0.32% of circulating supply. CONTESTED: published schedules count different recipient tranches — one published schedule lists a single tranche of 2,070,000 SUI to Mysten Labs Treasury on Oct 31, 2026 (0.05% of circulating supply), while another dates the next release Nov 1, 2026 to the Community Reserve. Tranche composition is verified against the Sui Foundation's published token schedule before any edition relies on it. Release type left unstated: published sources characterize this instalment differently."
     },
     {
       "token": "ENA",
@@ -35,7 +35,7 @@
       "pct_basis": "total supply",
       "type": "linear",
       "status": "scheduled",
-      "source_note": "Monthly Foundation tranche. SECONDARY-CORROBORATED (labelled as such): Ethena's docs publish no vesting terms for the Foundation allocation, so the date and amount rest on Tokenomist's structured Ethena data (next unlock Nov 2, 2026: 40,625,000 ENA to the Foundation), corroborated by two independent reports of the original schedule (Odaily; Coinlook: Foundation tranche about 40,625,000 ENA monthly, released on the 2nd). Share is 40,625,000 of the 15,000,000,000 total supply. This entry replaces the previously carried 275,015,625 ENA Nov 1 figure, which the desk withdrew on 2026-10-25 after primary-source verification (see the Core Contributors entry)."
+      "source_note": "Monthly Foundation tranche: 40,625,000 ENA to the Foundation on Nov 2, 2026 — 40,625,000 of the 15,000,000,000 total supply (0.27%). Ethena's own docs publish no vesting terms for the Foundation allocation; the date and amount rest on published unlock schedules, corroborated by independent reporting of the original schedule (a Foundation tranche of about 40,625,000 ENA monthly, released on the 2nd). This entry replaces the previously carried 275,015,625 ENA Nov 1 figure, which the desk withdrew on 2026-10-25 after verification against the project's own disclosures (see the Core Contributors entry)."
     },
     {
       "token": "ENA",
@@ -46,7 +46,7 @@
       "pct_basis": "total supply",
       "type": "linear",
       "status": "scheduled",
-      "source_note": "Monthly Core Contributors tranche. DERIVED FROM PROJECT DOCS (labelled as such): arithmetic from Ethena's own published vesting terms (docs.ethena.fi): Core Contributors hold 30% of the 15,000,000,000 total supply = 4,500,000,000 ENA, on a 1-year 25% cliff then 3-year linear monthly vesting from TGE (Mar 5, 2024) — the post-cliff 3,375,000,000 over 36 monthly payments is 93,750,000 ENA, released on the 5th. The Ethena Foundation's Aug 27, 2026 ecosystem update confirms team tokens remain on this original schedule, and that all remaining investor unlocks were accelerated into a single release on Oct 5, 2026 — no investor tokens remain locked. The previously carried 275,015,625 ENA 'Nov 1 unlock' figure was traced to an aggregator artifact, is not reproducible from any primary source, and is withdrawn."
+      "source_note": "Monthly Core Contributors tranche. Derived from the project's own published vesting terms (docs.ethena.fi): Core Contributors hold 30% of the 15,000,000,000 total supply = 4,500,000,000 ENA, on a 1-year 25% cliff then 3-year linear monthly vesting from TGE (Mar 5, 2024) — the post-cliff 3,375,000,000 over 36 monthly payments is 93,750,000 ENA, released on the 5th. The Ethena Foundation's Aug 27, 2026 ecosystem update confirms team tokens remain on this original schedule, and that all remaining investor unlocks were accelerated into a single release on Oct 5, 2026 — no investor tokens remain locked. The previously carried 275,015,625 ENA 'Nov 1 unlock' figure was traced to a published-data artifact, is not reproducible from any primary source, and is withdrawn."
     },
     {
       "token": "JTO",
@@ -68,7 +68,7 @@
       "pct_basis": "circulating supply",
       "type": "linear",
       "status": "scheduled",
-      "source_note": "First monthly release under Aptos' reduced schedule: core contributor and investor vesting ended Oct 12, 2026, cutting the monthly release from about 11,310,000 to 4,540,000 APT. Date, amount, and the 0.51% of circulating supply agree across DefiLlama's Aptos unlocks page and Tokenomist (both read Oct 25, 2026); recipient split of Community 3,210,000 + Foundation 1,330,000 per CoinGecko's Aptos tokenomics page. Linear monthly instalment; the reduced rate continues on the same cadence."
+      "source_note": "First monthly release under Aptos' reduced schedule: core contributor and investor vesting ended Oct 12, 2026, cutting the monthly release from about 11,310,000 to 4,540,000 APT. Date, amount, and the 0.51% of circulating supply agree across published unlock schedules (verified Oct 25, 2026); recipient split: Community 3,210,000 + Foundation 1,330,000. Linear monthly instalment; the reduced rate continues on the same cadence."
     },
     {
       "token": "STRK",
@@ -79,7 +79,7 @@
       "pct_basis": "total supply",
       "type": "cliff",
       "status": "scheduled",
-      "source_note": "Monthly instalment to Investors and Early Contributors under Starknet's published lock-up schedule (docs.starknet.io): up to 1.27% of the total supply (127,000,000 STRK) unlocks on the 15th of each month from Apr 15, 2025 through Mar 15, 2027. Tokenomist corroborates the Nov 15, 2026 date and states the 127,000,000 amount as definite, where the project docs say 'up to'; on Tokenomist's basis the instalment is 3.26% of currently released supply. Named variances: DropsTab states 128,230,000 for the next instalment (noted in DefiLlama's token rating), and Tokenomist's FAQ narrows the recipients to Early Contributors only — the desk follows the project docs (Investors and Early Contributors). Same-size instalments follow on Dec 15, 2026 and Jan 15, 2027, then Feb 15 and the final instalment on Mar 15, 2027."
+      "source_note": "Monthly instalment to Investors and Early Contributors under Starknet's published lock-up schedule (docs.starknet.io): up to 1.27% of the total supply (127,000,000 STRK) unlocks on the 15th of each month from Apr 15, 2025 through Mar 15, 2027. Published schedules corroborate the Nov 15, 2026 date and state the 127,000,000 amount as definite, where the project docs say 'up to'; on that basis the instalment is 3.26% of currently released supply. Named variances: a second published figure states 128,230,000 for the next instalment, and one published schedule narrows the recipients to Early Contributors only — this entry follows the project docs (Investors and Early Contributors). Same-size instalments follow on Dec 15, 2026 and Jan 15, 2027, then Feb 15 and the final instalment on Mar 15, 2027."
     },
     {
       "token": "ARB",
@@ -90,7 +90,7 @@
       "pct_basis": "circulating supply",
       "type": "cliff",
       "status": "contested — pending primary-source re-verification",
-      "source_note": "Monthly cliff instalment to Team, Future Team + Advisors and Investors. The amount agrees exactly across both trackers: 92,645,834 ARB (Tokenomist; DefiLlama states 92.65M), at 1.34% of circulating supply (DefiLlama). CONTESTED on date by one day: Tokenomist and the 16th-of-month cadence (the prior instalment fell Oct 16, 2026) give Nov 16, 2026; DefiLlama's Arbitrum unlocks page states Nov 15, 2026. The desk resolves the date from the Arbitrum Foundation's vesting disclosures before any edition relies on it. Same-size instalments continue monthly until March 2027."
+      "source_note": "Monthly cliff instalment to Team, Future Team + Advisors and Investors: 92,645,834 ARB, at 1.34% of circulating supply — the amount agrees exactly across published unlock schedules. CONTESTED on date by one day: the 16th-of-month cadence (the prior instalment fell Oct 16, 2026) gives Nov 16, 2026; one published schedule states Nov 15, 2026. The date is verified against the Arbitrum Foundation's vesting disclosures before any edition relies on it. Same-size instalments continue monthly until March 2027."
     },
     {
       "token": "ZRO",
@@ -112,7 +112,7 @@
       "pct_basis": "total supply",
       "type": "cliff",
       "status": "contested — pending primary-source re-verification",
-      "source_note": "Monthly investor and early-contributor tranche, under the Eigen Foundation's published rule (docs.eigenfoundation.org): investor and core-contributor allocations stayed locked for one year after transferability (Sep 30, 2024), then unlock at 4% per month. Figure carried here is Tokenomist's flat monthly instalment, held consistent with the November entry: 36,820,000 EIGEN (Investors 19,750,000 + Early Contributors 17,070,000), stated as 2.20% of total supply. CONTESTED on size: DefiLlama's emissions model puts the Dec 1, 2026 tranche at 36,794,832 EIGEN, and the November tranche at 37,825,418 against the 36,820,000 carried here — the two models disagree across the whole series. The Foundation's docs state the 4% rule but publish no per-date amounts; the desk resolves the series from the Foundation's own vesting disclosures before any edition relies on it. Same instalments continue on the 1st of each month into 2027. Weekly programmatic emissions (about 1.29M EIGEN/week) are a separate flow, not this event."
+      "source_note": "Monthly investor and early-contributor tranche, under the Eigen Foundation's published rule (docs.eigenfoundation.org): investor and core-contributor allocations stayed locked for one year after transferability (Sep 30, 2024), then unlock at 4% per month. Figure carried here is the flat monthly instalment, held consistent with the November entry: 36,820,000 EIGEN (Investors 19,750,000 + Early Contributors 17,070,000), stated as 2.20% of total supply. CONTESTED on size: a second published model puts the Dec 1, 2026 tranche at 36,794,832 EIGEN, and the November tranche at 37,825,418 against the 36,820,000 carried here — the two models disagree across the whole series. The Foundation's docs state the 4% rule but publish no per-date amounts; the series is verified against the Foundation's own vesting disclosures before any edition relies on it. Same instalments continue on the 1st of each month into 2027. Weekly programmatic emissions (about 1.29M EIGEN/week) are a separate flow, not this event."
     },
     {
       "token": "APT",
@@ -123,7 +123,7 @@
       "pct_basis": "circulating supply",
       "type": "linear",
       "status": "scheduled",
-      "source_note": "Monthly instalment under Aptos' reduced schedule, the second at the reduced rate: core contributor and investor vesting ended Oct 12, 2026, leaving Community and Foundation releases of 4,540,000 APT a month. The amount is the dataset's rounded figure for the instalment derived from the Aptos Foundation's published tokenomics (1/120 of the remaining Community and Foundation balances unlocks monthly): exactly 4,543,478 APT (Community 3,210,145 + Foundation 1,333,333). The Foundation's Feb 18, 2026 update confirms the reduced regime and the 60% cut in annualized unlocks. Share computed against Tokenomist's Oct 27, 2026 circulating figure (883,582,525 APT). Some trackers render this monthly instalment on the 12th rather than the 11th (a timezone convention); the amount is not in dispute, and the date follows the cadence carried for the November entry. The same instalment follows on Jan 11, 2027, and monthly through 2032."
+      "source_note": "Monthly instalment under Aptos' reduced schedule, the second at the reduced rate: core contributor and investor vesting ended Oct 12, 2026, leaving Community and Foundation releases of 4,540,000 APT a month. The amount is the rounded figure for the instalment derived from the Aptos Foundation's published tokenomics (1/120 of the remaining Community and Foundation balances unlocks monthly): exactly 4,543,478 APT (Community 3,210,145 + Foundation 1,333,333). The Foundation's Feb 18, 2026 update confirms the reduced regime and the 60% cut in annualized unlocks. Share computed against the published Oct 27, 2026 circulating figure (883,582,525 APT). Some published schedules render this monthly instalment on the 12th rather than the 11th (a timezone convention); the amount is not in dispute, and the date follows the cadence carried for the November entry. The same instalment follows on Jan 11, 2027, and monthly through 2032."
     },
     {
       "token": "ARB",
@@ -134,7 +134,7 @@
       "pct_basis": "circulating supply",
       "type": "cliff",
       "status": "contested — pending primary-source re-verification",
-      "source_note": "Monthly instalment to Team, Future Team + Advisors (56,125,000) and Investors (36,520,834), under the Arbitrum Foundation's published token distribution (four-year lockup from Mar 16, 2023; first unlock Mar 16, 2024, then monthly). Amount per Tokenomist; DefiLlama's emissions model states 92,645,833 — a one-token difference in the Investors tranche. Share computed against Tokenomist's Oct 27, 2026 circulating figure (6,892,115,031 ARB). CONTESTED on date by one day, as the November instalment was: Tokenomist and the 16th-of-month cadence give Dec 16, 2026; DefiLlama's model states Dec 15, 2026, and drifts further in January (Jan 14 against the 16th). The desk resolves the date from the Arbitrum Foundation's vesting disclosures before any edition relies on it. Same-size instalments continue monthly into early 2027 (Tokenomist's cadence ends March 2027; DefiLlama's model ends Feb 14, 2027)."
+      "source_note": "Monthly instalment to Team, Future Team + Advisors (56,125,000) and Investors (36,520,834), under the Arbitrum Foundation's published token distribution (four-year lockup from Mar 16, 2023; first unlock Mar 16, 2024, then monthly): 92,645,834 ARB carried here. A second published model states 92,645,833 — a one-token difference in the Investors tranche. Share computed against the published Oct 27, 2026 circulating figure (6,892,115,031 ARB). CONTESTED on date by one day, as the November instalment was: the 16th-of-month cadence gives Dec 16, 2026; another published model states Dec 15, 2026, and drifts further in January (Jan 14 against the 16th). The date is verified against the Arbitrum Foundation's vesting disclosures before any edition relies on it. Same-size instalments continue monthly into early 2027 (one published cadence ends March 2027; another model ends Feb 14, 2027)."
     },
     {
       "token": "ONDO",
@@ -145,7 +145,7 @@
       "pct_basis": "total supply",
       "type": "cliff",
       "status": "contested — pending primary-source re-verification",
-      "source_note": "Annual cliff instalment under the Ondo Foundation's published unlock framework (blog.ondo.foundation): locked tokens unlock 12, 24, 36, 48 and 60 months after the initial Jan 18, 2024 unlock. Amount carried here is Tokenomist's: 1,939,613,682 ONDO — identical in its table to the Jan 2025 and Jan 2026 tranches — across Protocol Development (about 825,000,000), Ecosystem Growth (about 792,000,000) and Private Sales (about 322,560,000); the per-class split is as reported for the identical January tranche and is rounded in the reporting. Share computed from that amount against the 10,000,000,000 total supply; Tokenomist states the tranche as 36.40% of currently released supply. CONTESTED on size: CoinMarketCap's tracker puts the same event at about 1,710,000,000 ONDO with a different split (about 792M ecosystem / 660M protocol / 258M private investors) — a difference of about 229,600,000. The Foundation's framework fixes the cadence and the allocations but publishes no per-tranche amount; the desk resolves the size from the Foundation's disclosures before any edition relies on it. A same-size instalment follows Jan 18, 2028, and the final tranche on Jan 18, 2029."
+      "source_note": "Annual cliff instalment under the Ondo Foundation's published unlock framework (blog.ondo.foundation): locked tokens unlock 12, 24, 36, 48 and 60 months after the initial Jan 18, 2024 unlock. Amount carried here: 1,939,613,682 ONDO — identical to the Jan 2025 and Jan 2026 tranches — across Protocol Development (about 825,000,000), Ecosystem Growth (about 792,000,000) and Private Sales (about 322,560,000); the per-class split is as reported for the identical January tranche and is rounded in the reporting. Share computed from that amount against the 10,000,000,000 total supply; the tranche is also stated as 36.40% of currently released supply. CONTESTED on size: a second published schedule puts the same event at about 1,710,000,000 ONDO with a different split (about 792M ecosystem / 660M protocol / 258M private investors) — a difference of about 229,600,000. The Foundation's framework fixes the cadence and the allocations but publishes no per-tranche amount; the size is verified against the Foundation's disclosures before any edition relies on it. A same-size instalment follows Jan 18, 2028, and the final tranche on Jan 18, 2029."
     }
   ]
 }
