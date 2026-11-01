@@ -33,7 +33,7 @@ ul { margin: 1mm 0 3mm 5mm; padding: 0; }</style></head><body>
 <p><b>Verdict: Needs work.</b> The three findings that matter most:</p><ul>
 <li><b>HIGH — Supply schedule &amp; issuance:</b> Supply is uncapped in aggregator data — no maximum supply is published, so dilution depends on issuer discretion.</li>
 <li><b>INFO — Supply schedule &amp; issuance:</b> Mint authority is revoked — supply cannot be inflated by the issuer.</li>
-<li><b>LOW — Vesting &amp; unlock calendar:</b> Unlock schedule is UNKNOWN — the protocol is not tracked by DefiLlama emissions and no schedule was machine-readable. Missing evidence: a published unlock/vesting schedule from the project's docs.</li>
+<li><b>LOW — Vesting &amp; unlock calendar:</b> Unlock schedule is UNKNOWN — no published emissions schedule was found for the protocol and no schedule was machine-readable. Missing evidence: a published unlock/vesting schedule from the project's docs.</li>
 </ul>
 <h2>2. Token snapshot</h2><table>
 <tr><th>Total supply (global)</th><td>1,000,000,000</td></tr>
@@ -53,17 +53,17 @@ ul { margin: 1mm 0 3mm 5mm; padding: 0; }</style></head><body>
 <tr><th>Mint authority</th><td>NONE (revoked)</td></tr>
 <tr><th>Freeze authority</th><td>NONE (revoked)</td></tr>
 </table>
-<p class='small'>Sources: CoinGecko (market/supply), chain RPC (on-chain reads), Blockscout (holders, EVM), DEXScreener (liquidity/volume), DefiLlama (fees; emissions when tracked). Accessed 2026-10-24T22:13:34.866Z.</p>
+<p class='small'>Sources: Public market data (market/supply), chain RPC (on-chain reads), public block explorers (holders), public DEX market data (liquidity/volume), published protocol data (fees; emissions where published). Accessed 2026-10-24T22:13:34.866Z.</p>
 <h2>3. Findings — ranked by severity</h2>
 <h3>1. <span class='chip' style='background:#ea580c'>HIGH</span> Supply schedule &amp; issuance</h3>
 <p>Supply is uncapped in aggregator data — no maximum supply is published, so dilution depends on issuer discretion.</p>
-<p class='ev'>Evidence: total_supply=986,522,404, max_supply=None (CoinGecko)</p>
+<p class='ev'>Evidence: total_supply=986,522,404, max_supply=None (public market data)</p>
 <h3>2. <span class='chip' style='background:#6b7280'>INFO</span> Supply schedule &amp; issuance</h3>
 <p>Mint authority is revoked — supply cannot be inflated by the issuer.</p>
 <p class='ev'>Evidence: SPL mint account: mint_authority option = 0</p>
 <h3>3. <span class='chip' style='background:#2563eb'>LOW</span> Vesting &amp; unlock calendar</h3>
-<p>Unlock schedule is UNKNOWN — the protocol is not tracked by DefiLlama emissions and no schedule was machine-readable. Missing evidence: a published unlock/vesting schedule from the project's docs.</p>
-<p class='ev'>Evidence: DefiLlama emissions endpoint unavailable (paywalled) or protocol untracked — unlock schedule UNKNOWN.</p>
+<p>Unlock schedule is UNKNOWN — no published emissions schedule was found for the protocol and no schedule was machine-readable. Missing evidence: a published unlock/vesting schedule from the project's docs.</p>
+<p class='ev'>Evidence: no openly published emissions schedule was available for this protocol at last check — unlock schedule UNKNOWN.</p>
 <h3>4. <span class='chip' style='background:#2563eb'>LOW</span> Concentration &amp; governance risk</h3>
 <p>Holder distribution is UNKNOWN — the holder source returned no data for this token. Missing evidence: explorer holder list.</p>
 <p class='ev'>Evidence: holders source empty</p>
@@ -71,13 +71,13 @@ ul { margin: 1mm 0 3mm 5mm; padding: 0; }</style></head><body>
 <h3>Holder concentration — UNKNOWN</h3><p>Holder distribution not measurable from public sources this run.</p>
 <h3>Insider concentration</h3><p>UNKNOWN — insider allocation % requires the project's published allocation docs (manual checkpoint).</p>
 <h3>Unlock risk</h3><p>54% of supply circulates; 46% is locked or unissued — future unlock pressure exists even where the calendar is unpublished.</p>
-<h3>Value accrual</h3><p>The protocol charges real fees (DefiLlama). Whether any of that value reaches token holders — buyback, burn, revenue share — is UNKNOWN without the project's docs (manual checkpoint).</p>
+<h3>Value accrual</h3><p>The protocol charges real fees (published protocol data). Whether any of that value reaches token holders — buyback, burn, revenue share — is UNKNOWN without the project's docs (manual checkpoint).</p>
 <p>Annualized protocol fees (24h × 365): <b>$108,245,130</b> · fees/FDV = 25.02%</p>
 <h3>Peer comparison</h3>
 <p>UNKNOWN — no curated peer set for this token yet.</p>
 <h2>5. Methodology, limitations & disclaimers</h2>
-<p class='small'>Public sources only: the aggregators and chain data named above, accessed on the date shown. No internal cap tables, no private agreements, no team-wallet labels beyond what sources publish. Checkpoints requiring project documentation (initial allocation, holder capture of fees, demand drivers) are graded in the manual review layer; the engine grades only what it measured and marks the rest UNKNOWN rather than guessing. Figures are a snapshot; tokenomics change — re-check before acting.</p>
+<p class='small'>Public sources only: the public sources and chain data described above, accessed on the date shown. No internal cap tables, no private agreements, no team-wallet labels beyond what sources publish. Checkpoints requiring project documentation (initial allocation, holder capture of fees, demand drivers) are graded in the manual review layer; the engine grades only what it measured and marks the rest UNKNOWN rather than guessing. Figures are a snapshot; tokenomics change — re-check before acting.</p>
 <p class='small'>1) <b>Not a security audit</b> — no contract code, custody, or operational security was reviewed. 2) <b>Not financial advice</b> — no recommendation to buy, sell, or hold any token. 3) <b>No price predictions</b> — supply mechanics only; valuation figures are arithmetic, not forecasts. 4) <b>Public sources</b> — errors in source material propagate; verify independently. 5) <b>No outcome guarantees</b> — a Sound grade does not imply performance; a Fragile grade does not imply failure. 6) <b>Independence</b> — prepared without engagement from the project team beyond the review fee, which does not influence grades.</p>
-<p class='small'>Tokenomics Desk — <a href='https://tokenomics-portfolio.pages.dev/'>audit portfolio</a> · <a href='https://github.com/yungsuper16-eng/tokenomics-audit-desk'>GitHub</a> · contact: btupm4@aimailbox.dev</p>
+<p class='small'>Tokenomics Desk — <a href='https://tokenomics-portfolio.pages.dev/'>audit portfolio</a> · <a href='https://github.com/yungsuper16-eng/tokenomics-audit-desk'>GitHub</a> · contact: audiauditdesk@gmail.com</p>
 <script>try{navigator.sendBeacon("https://tokenomics-fetcher.gtcclothing1.workers.dev/hit",JSON.stringify({p:location.pathname}));}catch(e){}</script>
 </body></html>

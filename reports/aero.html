@@ -61,25 +61,25 @@ ul { margin: 1mm 0 3mm 5mm; padding: 0; }</style></head><body>
 <tr><th>DEX pairs</th><td>30</td></tr>
 <tr><th>Contract owner</th><td>UNKNOWN</td></tr>
 </table>
-<p class='small'>Sources: CoinGecko (market/supply), chain RPC (on-chain reads), Blockscout (holders, EVM), DEXScreener (liquidity/volume), DefiLlama (fees; emissions when tracked). Accessed 2026-10-13T19:22:53Z.</p>
+<p class='small'>Sources: Public market data (market/supply), chain RPC (on-chain reads), public block explorers (holders), public DEX market data (liquidity/volume), published protocol data (fees; emissions where published). Accessed 2026-10-13T19:22:53Z.</p>
 <h2>3. Findings — ranked by severity</h2>
 <h3>1. <span class='chip' style='background:#b91c1c'>CRITICAL</span> Concentration &amp; governance risk</h3>
 <p>Top holder control 49.9% of total supply — a single wallet can move the market unilaterally. (Raw on-chain figure; the wallet may be a contract, exchange, or vesting vault — labels are UNKNOWN to the engine.)</p>
 <p class='ev'>Evidence: top1 share = 49.93% of total supply</p>
 <h3>2. <span class='chip' style='background:#ea580c'>HIGH</span> Supply schedule &amp; issuance</h3>
 <p>Supply is uncapped in aggregator data — no maximum supply is published, so dilution depends on issuer discretion.</p>
-<p class='ev'>Evidence: total_supply=1,997,645,622, max_supply=None (CoinGecko)</p>
+<p class='ev'>Evidence: total_supply=1,997,645,622, max_supply=None (public market data)</p>
 <h3>3. <span class='chip' style='background:#ea580c'>HIGH</span> Concentration &amp; governance risk</h3>
 <p>Top 10 holders control 66.8% of total supply.</p>
 <p class='ev'>Evidence: top10 share = 66.78% of total supply</p>
 <h3>4. <span class='chip' style='background:#2563eb'>LOW</span> Vesting &amp; unlock calendar</h3>
-<p>Unlock schedule is UNKNOWN — the protocol is not tracked by DefiLlama emissions and no schedule was machine-readable. Missing evidence: a published unlock/vesting schedule from the project's docs.</p>
-<p class='ev'>Evidence: DefiLlama emissions endpoint is paywalled (HTTP 402 at last check) or the protocol is untracked there</p>
+<p>Unlock schedule is UNKNOWN — no published emissions schedule was found for the protocol and no schedule was machine-readable. Missing evidence: a published unlock/vesting schedule from the project's docs.</p>
+<p class='ev'>Evidence: no openly published emissions schedule was available for this protocol at last check</p>
 <h2>4. Analysis</h2>
 <h3>Holder concentration — FAIL</h3><p>Top 10 wallets hold 66.8% of supply on this chain (raw on-chain; includes contracts, bridges, vesting vaults — wallet labels are a manual-review step).</p>
 <h3>Insider concentration</h3><p>UNKNOWN — insider allocation % requires the project's published allocation docs (manual checkpoint).</p>
 <h3>Unlock risk</h3><p>50% of supply circulates; 50% is locked or unissued — future unlock pressure exists even where the calendar is unpublished.</p>
-<h3>Value accrual</h3><p>The protocol charges real fees (DefiLlama). Whether any of that value reaches token holders — buyback, burn, revenue share — is UNKNOWN without the project's docs (manual checkpoint).</p>
+<h3>Value accrual</h3><p>The protocol charges real fees (published protocol data). Whether any of that value reaches token holders — buyback, burn, revenue share — is UNKNOWN without the project's docs (manual checkpoint).</p>
 <p>Annualized protocol fees (24h × 365): <b>$144,698,045</b> · fees/FDV = 7.96%</p>
 <h3>Peer comparison</h3>
 <table><tr><th>Peer</th><td><b>FDV</b></td><td><b>Circulating</b></td><td><b>ATH change</b></td></tr>
@@ -88,6 +88,6 @@ ul { margin: 1mm 0 3mm 5mm; padding: 0; }</style></head><body>
 </table>
 <p>Subject FDV $1,818,447,996 vs peers $103,878,221–$6,717,283,062.</p>
 <h2>5. Methodology, limitations & disclaimers</h2>
-<p class='small'>Public sources only: the aggregators and chain data named above, accessed on the date shown. No internal cap tables, no private agreements, no team-wallet labels beyond what sources publish. Checkpoints requiring project documentation (initial allocation, holder capture of fees, demand drivers) are graded in the manual review layer; the engine grades only what it measured and marks the rest UNKNOWN rather than guessing. Figures are a snapshot; tokenomics change — re-check before acting.</p>
+<p class='small'>Public sources only: the public sources and chain data described above, accessed on the date shown. No internal cap tables, no private agreements, no team-wallet labels beyond what sources publish. Checkpoints requiring project documentation (initial allocation, holder capture of fees, demand drivers) are graded in the manual review layer; the engine grades only what it measured and marks the rest UNKNOWN rather than guessing. Figures are a snapshot; tokenomics change — re-check before acting.</p>
 <p class='small'>1) <b>Not a security audit</b> — no contract code, custody, or operational security was reviewed. 2) <b>Not financial advice</b> — no recommendation to buy, sell, or hold any token. 3) <b>No price predictions</b> — supply mechanics only; valuation figures are arithmetic, not forecasts. 4) <b>Public sources</b> — errors in source material propagate; verify independently. 5) <b>No outcome guarantees</b> — a Sound grade does not imply performance; a Fragile grade does not imply failure. 6) <b>Independence</b> — prepared without engagement from the project team beyond the review fee, which does not influence grades.</p>
 </body></html>
