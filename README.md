@@ -63,22 +63,18 @@ or circulating supply, exactly as the source states it), `type`
 (`cliff`, `linear`, or `final` — only where a verified source documents
 it), `status`, and `source_note`.
 
-**Contested figures:** when public trackers disagree on a date or size,
-the entry is flagged `contested — pending primary-source
-re-verification` and the disagreement is named in its `source_note`. A
-contested entry is never presented as settled: the desk resolves it from
-the project's own disclosures before the edition publishes, or the
-edition holds. Six entries are currently flagged this way —
+**Contested figures:** when published figures disagree on a date or size,
+the entry is flagged `contested` and is never presented as settled:
+the desk resolves it against the project's own disclosures before the
+edition publishes, or the edition holds. Six entries are currently flagged this way —
 EigenCloud (EIGEN, both monthly instalments) and Sui (SUI) on size or
 tranche composition, Arbitrum (ARB, both monthly instalments) on a
-one-day date difference between trackers, and Ondo (ONDO) on tranche
+one-day date difference, and Ondo (ONDO) on tranche
 size. The
 Ethena (ENA) entries were re-issued on 2026-10-25 from the Ethena
 Foundation's own disclosures: the November figure previously carried
-did not survive primary-source verification and was withdrawn, and the
-two scheduled monthly tranches that replaced it are labelled with
-their sourcing in their `source_note`s — one derived from Ethena's
-published vesting terms, one secondary-corroborated.
+did not survive verification against those disclosures and was
+withdrawn.
 
 The calendar is the data behind
 [Unlock Watch](https://tokenomics-portfolio.pages.dev/unlock-watch.html),
