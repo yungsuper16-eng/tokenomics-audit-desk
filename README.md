@@ -107,3 +107,9 @@ in USDC on Base.**
 
 Order: https://tokenomics-portfolio.pages.dev/#order
 Contact: audiauditdesk@gmail.com
+
+**Live x402 Data API — new:** Query this dataset programmatically and pay per call in USDC on Base via x402 — no account, no API key.
+
+- Endpoint: https://tokenomics-x402.gtcclothing1.workers.dev
+- `GET /unlocks` — $0.01 per query (one token via ?token=SYMBOL, or the next 10 upcoming unlocks)
+- `GET /unlocks/full` — $1.00 — full 20-token reconstruction (46 events)
