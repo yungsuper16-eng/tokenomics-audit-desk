@@ -15,6 +15,8 @@ back Sound or Fragile.
 
 **Get the data via API: https://tokenomics-x402.gtcclothing1.workers.dev ($1.00 for full 20-token reconstruction via x402).**
 
+**Token Risk Verdict Engine:** `GET https://tokenomics-x402.gtcclothing1.workers.dev/risk-score?token=ENA` — an A–F unlock-risk verdict per token: unlock cliff analysis and a sell-pressure estimate, graded on the desk's published rubric, with a signed receipt on every call. **$0.025 per verdict**, or **$1.00 for a 50-verdict prepaid bundle** at `GET /risk-bundle`. Rubric and sample response: https://tokenomics-x402.gtcclothing1.workers.dev/risk-score/methodology — Not Financial Advice.
+
 ## Sample audits — graded, published in full
 
 Nine audits, free to read, every figure sourced:
